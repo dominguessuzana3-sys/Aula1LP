@@ -1,0 +1,38 @@
+// funçoes com parametros
+//**************************** */
+
+function mostrarNome(nome){
+    console.log(`Seja bem vinda ${nome}`);
+    console.log 
+    
+}
+const nota1 = 6;
+const nota2 = 7;
+const nota3 = 10;
+const nome = "Ana";
+
+function calcularMedia (nota1, nota2, not3,nome){
+    let media = (nota1 + nota2 + not3) / 3;
+    return `A média de ${nome} é: ${media}`;
+}
+const mediaAna = calcularMedia(nota1, nota2, nota3,nome);
+console.log (mediaAna);
+
+const mediaSuzana = calcularMedia(5, 7, 8, "Suzana");
+console.log (mediaSuzana);
+
+
+//**************************** */
+
+function calcularJuros (capital, tempo){
+    const taxa = 0.05;
+
+const juros = capital * taxa * tempo
+
+console.log (`O juros no periodo de ${tempo} meses é de R$ ${juros}`);
+
+
+
+}calcularJuros (2000,24);
+
+calcularJuros (1500,12);
